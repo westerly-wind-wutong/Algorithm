@@ -1,3 +1,5 @@
+package BruteForceMethod;
+
 public class OneHundredDollarsForChickenProblem {
     public static void main(String[] args) {
         Chicken();
