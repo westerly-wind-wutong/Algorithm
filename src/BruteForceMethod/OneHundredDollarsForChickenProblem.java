@@ -1,6 +1,6 @@
 package BruteForceMethod;
 
-public class OneHundredDollarsForChickenProblem {
+public class OneHundredDollarsForChickenProblem {          //百元买鸡问题
     public static void main(String[] args) {
         Chicken();
     }

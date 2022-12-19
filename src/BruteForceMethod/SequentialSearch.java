@@ -1,6 +1,6 @@
 package BruteForceMethod;
 
-public class SequentialSearch {
+public class SequentialSearch {          // 顺序查找
     public static void main(String[] args) {
         int[] r = {0, 1, 5, 3, 9, 4};
         int k1 = SeqSearch1(r, 3);
