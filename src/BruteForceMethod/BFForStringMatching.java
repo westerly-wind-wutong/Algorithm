@@ -1,6 +1,6 @@
 package BruteForceMethod;
 
-public class BFForStringMatching {
+public class BFForStringMatching {          // 串匹配BF算法
     public static void main(String[] args) {
         String str = "abcabcabcaccb";
         String sub = "abcacc";
