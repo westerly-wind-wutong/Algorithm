@@ -1,6 +1,12 @@
-package BruteForceMethod;
+package edu.蛮力法;
 
-public class SequentialSearch {          // 顺序查找
+/**
+ * @Author WesterlyWindWuTong
+ * @Date 2023/1/10 01:10
+ * @Version 1.0
+ * @Description:
+ */
+public class A2_顺序查找 {
     public static void main(String[] args) {
         int[] r = {0, 1, 5, 3, 9, 4};
         int k1 = SeqSearch1(r, 3);

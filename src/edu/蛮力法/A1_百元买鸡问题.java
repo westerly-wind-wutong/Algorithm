@@ -1,6 +1,12 @@
-package BruteForceMethod;
+package edu.蛮力法;
 
-public class OneHundredDollarsForChickenProblem {          //百元买鸡问题
+/**
+ * @Author WesterlyWindWuTong
+ * @Date 2023/1/10 01:09
+ * @Version 1.0
+ * @Description:
+ */
+public class A1_百元买鸡问题 {
     public static void main(String[] args) {
         Chicken();
     }

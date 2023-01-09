@@ -1,6 +1,12 @@
-package BruteForceMethod;
+package edu.蛮力法;
 
-public class BFForStringMatching {          // 串匹配BF算法
+/**
+ * @Author WesterlyWindWuTong
+ * @Date 2023/1/10 01:18
+ * @Version 1.0
+ * @Description:
+ */
+public class A3_串匹配BF算法 {
     public static void main(String[] args) {
         String str = "abcabcabcaccb";
         String sub = "abcacc";
