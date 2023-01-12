@@ -1,4 +1,4 @@
-package edu.蛮力法;
+package edu.A_蛮力法;
 
 /**
  * @Author WesterlyWindWuTong
