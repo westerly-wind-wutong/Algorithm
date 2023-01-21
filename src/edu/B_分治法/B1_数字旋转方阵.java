@@ -14,6 +14,7 @@ public class B1_数字旋转方阵 {
         System.out.print("输入方阵的大小：");
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
+        scanner.close();
         Full(1, 0, size, data);
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++)
