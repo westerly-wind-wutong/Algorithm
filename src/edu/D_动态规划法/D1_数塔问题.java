@@ -9,7 +9,7 @@ package edu.D_动态规划法;
 public class D1_数塔问题 {
     private static int n = 5;
     public static void main(String[] args) {
-        int[][] d= {{8},{12,6},{3,9,4},{6,5,7,8},{1,2,3,4,5}};
+        int[][] d= {{8},{12,15},{3,9,6},{8,10,5,12},{16,6,18,10,9}};
         int max = DataTorwer(d);
         System.out.println(max);
     }
