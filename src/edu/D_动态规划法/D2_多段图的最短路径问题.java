@@ -6,7 +6,9 @@ import java.util.Scanner;
  * @Author WesterlyWindWuTong
  * @Date 2023/1/21 20:44
  * @Version 1.0
- * @Description:
+ * @Description: 问题：设图 G =（V,E）是一个带权有向图，如果把顶点集合 V 划分成 k 个互不相交的子集 Vi（2<=k<=n,1<=i<=k），
+ *               使得 E 中的任何一条边 <u,v>，必有 u∈Vi, v∈Vi + m(1<=i<k, 1<i+m<=k),则称图 G 为多段图，称 s∈V1 为源点，t∈Vk 为终点。
+ *               多段图的最短路径问题为从源点到终点的最小代价路径。
  */
 public class D2_多段图的最短路径问题 {
     private static int N = 20;

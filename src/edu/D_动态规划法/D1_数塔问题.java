@@ -4,7 +4,7 @@ package edu.D_动态规划法;
  * @Author WesterlyWindWuTong
  * @Date 2023/1/20 21:11
  * @Version 1.0
- * @Description:
+ * @Description: 问题：从数塔的顶层出发，在每一个结点可以选择向左走或向右走，一直走到最底层，要求找出一条路径，使得路径上数值和最大。
  */
 public class D1_数塔问题 {
     private static int n = 5;
