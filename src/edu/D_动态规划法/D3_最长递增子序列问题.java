@@ -4,7 +4,8 @@ package edu.D_动态规划法;
  * @Author WesterlyWindWuTong
  * @Date 2023/1/22 22:48
  * @Version 1.0
- * @Description:
+ * @Description: 问题：在数字序列 A= {a1, a2, ..., an} 中按递增下标序列 (i1, i2, ..., ik)(1<=i1<i2<...<ik<n)顺序选出一个子序列B,
+ * 如果子序列B中的数字都是严格递增的,则子序列B称为序列A的递增子序列。最长递增子序列问题就是要找出序列A的一个最长的递增子序列。
  */
 public class D3_最长递增子序列问题 {
     public static void main(String[] args) {
@@ -16,8 +17,8 @@ public class D3_最长递增子序列问题 {
     private static int IncreaseOrder(int[] a) {
         int i, j, k, index;
 //        int L[ 10],x[10][10];                 //假设最多10个元素
-        int[] L=new int[10];
-        int[][] x=new int[10][10];
+        int[] L = new int[10];
+        int[][] x = new int[10][10];
         for (i = 0; i < 8; i++)                 //初始化，最长递增子序列长度为1
         {
             L[i] = 1;
@@ -41,7 +42,7 @@ public class D3_最长递增子序列问题 {
             if (L[index] < L[i]) index = i;
         System.out.print("最长递增子序列是：");
         for (i = 0; i < L[index]; i++)         //输出最长递增子序列
-            System.out.print(x[index][i]+"  ");
+            System.out.print(x[index][i] + "  ");
         return L[index];                  //返回最长递增子序列的长度
     }
 
