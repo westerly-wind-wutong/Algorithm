@@ -6,7 +6,8 @@ import java.util.Scanner;
  * @Author WesterlyWindWuTong
  * @Date 2023/1/27 21:54
  * @Version 1.0
- * @Description:
+ * @Description: 问题：埃及同中国一样,也是世界文明古国之一。古埃及人只用分子为1的分数 ,在表示一个真分数时 ,将其分解为若干个埃及分数之和,
+ * 例如,7/8 表示为 1/2十1/3十1/24。埃及分数问题要求把一个真分数表示为最少的埃及分数之和的形式。
  */
 public class E1_埃及分数 {
     public static void main(String[] args) {
