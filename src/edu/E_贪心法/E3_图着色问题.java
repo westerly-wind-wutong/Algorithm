@@ -12,9 +12,9 @@ public class E3_图着色问题 {
     private static int[] color = new int[N];
 
     public static void main(String[] args) {
-        ColorGraph( );
+        ColorGraph();
         for (int i = 0; i < N; i++)
-            System.out.println(color[i]+" ");
+            System.out.println(color[i] + " ");
     }
 
     private static void ColorGraph() {
