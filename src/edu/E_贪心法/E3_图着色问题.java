@@ -7,9 +7,9 @@ package edu.E_贪心法;
  * @Description:
  */
 public class E3_图着色问题 {
-    private static int N = 5;
-    private static int[][] arc = {{0, 1, 0, 0, 0}, {1, 0, 1, 1, 0}, {0, 1, 0, 0, 1}, {0, 1, 0, 0, 1}, {0, 0, 1, 1, 0}};
-    private static int[] color = new int[N];
+    private static final int N = 5;
+    private static final int[][] arc = {{0, 1, 0, 0, 0}, {1, 0, 1, 1, 0}, {0, 1, 0, 0, 1}, {0, 1, 0, 0, 1}, {0, 0, 1, 1, 0}};
+    private static final int[] color = new int[N];
 
     public static void main(String[] args) {
         ColorGraph();
